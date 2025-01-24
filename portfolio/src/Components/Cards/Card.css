@@ -1,0 +1,13 @@
+.cards .card{
+    height:30vh;
+    width: 20vw;
+    border-radius:8px;
+    border-color: yellowgreen;
+    border:2px solid red;
+    
+}
+.cards{
+    display: grid; /* Activate grid layout */
+    grid-template-columns: repeat( 1fr); /* Create 3 equal-width columns */
+    grid-gap:0px; 
+}

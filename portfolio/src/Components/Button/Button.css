@@ -1,0 +1,23 @@
+.btn {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 26px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 47px;
+}
+.button-com {
+  display: flex;
+  top: 40px;
+  right: 3%;
+  /* text-transform: uppercase; */
+  padding: 12px;
+  gap: 35px;
+  font-size: 20px;
+  margin-top: 20px;
+}

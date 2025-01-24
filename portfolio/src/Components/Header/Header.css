@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px;
+}
+
+.header img {
+  height: 33px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+ .right .right-logo{
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid white;
+  background-color: white;
+  padding: 8px;
+}

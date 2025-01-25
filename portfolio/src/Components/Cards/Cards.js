@@ -66,6 +66,7 @@ const Cards = () => {
             </h4>
           </div>
           <div class="progress-bar"style={{ border: "none" }}>
+            <div className="progress-child">
             <h3 style={{ backgroundColor: "black", color: "white" }}>
               Step 01
             </h3>
@@ -73,7 +74,7 @@ const Cards = () => {
             <h3>Step 03</h3>
             <h3>Step 04</h3>
             <h3>Step 05</h3>
-
+</div>
 
           </div>
         </div>

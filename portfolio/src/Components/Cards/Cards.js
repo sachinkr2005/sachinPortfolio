@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import ai from "../../Images/ai.png";
+import ram from "../../Images/ram.png";
 
 const Cards = () => {
   return (
@@ -33,8 +34,9 @@ const Cards = () => {
               <span>klaus klamp</span>
             </h4>
           </div>
-
-          {/* <img src={ram} alt="" /> */}
+          
+          <img src={ram} alt="" />
+        
         </div>
       </div>
 
@@ -62,17 +64,18 @@ const Cards = () => {
                 microscope
               </span>
             </h4>
- 
           </div>
-          <div class="progress-bar">
-      <div style={{backgroundColor:"black",color:"white"}}>Step 01</div>
-      
-      <div >Step 03</div>
-      <div >Step 04</div>
-      <div >Step 05</div>
-    </div>
+          <div class="progress-bar"style={{ border: "none" }}>
+            <h3 style={{ backgroundColor: "black", color: "white" }}>
+              Step 01
+            </h3>
+            <h3>Step 02</h3>
+            <h3>Step 03</h3>
+            <h3>Step 04</h3>
+            <h3>Step 05</h3>
 
-          
+
+          </div>
         </div>
       </div>
     </>

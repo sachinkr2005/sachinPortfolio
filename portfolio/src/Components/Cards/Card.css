@@ -82,17 +82,31 @@
 }
 
 .card-upper-3-text {
-  padding-left: 22px;
+  padding-left: 32px;
   padding-top: 15px;
-  line-height: 25px;
-  font-size: 19px;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: bold;
 }
-
+.ram-img{
+  border: 2px solid;
+  border-radius: 24px 24px 0px 0px;
+  width: 151px;
+  padding-left: 13px;
+  margin-left: 114px;
+  margin-top: 25px;
+  z-index: -1;
+  z-index: 2;
+  background-color: #ece0e0;
+  border: 2px;
+}
 .card-upper-3 img {
   height: 130px;
   position: relative;
-  left: 150px;
-  top: 26px;
+  left: 19px;
+  top: 12px;
+  width: 102px;
+  border-radius: 10px;
 }
 .card-upper3-img {
   border: 2px solid;

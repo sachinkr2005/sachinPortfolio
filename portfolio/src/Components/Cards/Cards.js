@@ -34,9 +34,9 @@ const Cards = () => {
               <span>klaus klamp</span>
             </h4>
           </div>
-          
+          <h2 className="ram-img">
           <img src={ram} alt="" />
-        
+        </h2>
         </div>
       </div>
 

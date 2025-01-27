@@ -5,6 +5,8 @@ import Button from "./Components/Button/Button";
 import Cards from "./Components/Cards/Cards";
 import "./App.css";
 
+
+
 const App = () => {
   return (
     <div className="container">
@@ -13,6 +15,8 @@ const App = () => {
         <Hero />
         <Button />
         <Cards/>
+        
+       
       </div>
     </div>
   );
